@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Navigasi Saya</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; background-color: #f4f4f9; }
+        .btn { width: 80%; max-width: 300px; padding: 15px; margin: 10px; border: none; border-radius: 8px; font-size: 18px; cursor: pointer; color: white; transition: 0.3s; }
+        .btn-1 { background-color: #3498db; }
+        .btn-2 { background-color: #2ecc71; }
+        .btn:hover { opacity: 0.8; }
+    </style>
+</head>
+<body>
+
+    <h2>Menu Utama</h2>
+    
+    <button class="btn btn-1" onclick="location.href='https://www.sys-admin.web.id/home'">Login Website</button>
+    <button class="btn btn-2" onclick="location.href='https://www.sys-admin.web.id/watch-list-go'">Input Data</button>
+
+    <script>
+        // Mendaftarkan Service Worker agar bisa diinstal
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>
