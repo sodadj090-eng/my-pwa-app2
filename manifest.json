@@ -1,6 +1,6 @@
 {
-  "name": "Nama Aplikasi Lengkap Anda",
-  "short_name": "NamaSingkat",
+  "name": "Loading...",
+  "short_name": "Nutriflakes",
   "description": "Aplikasi navigasi cepat buatan sendiri",
   "start_url": "index.html",
   "display": "standalone",
@@ -21,4 +21,5 @@
       "purpose": "any maskable"
     }
   ]
+
 }
