@@ -1,5 +1,5 @@
 {
-  "name": "Loading...",
+  "name": "Nutriflakes",
   "short_name": "Nutriflakes",
   "description": "Aplikasi navigasi cepat buatan sendiri",
   "start_url": "index.html",
@@ -23,3 +23,4 @@
   ]
 
 }
+
